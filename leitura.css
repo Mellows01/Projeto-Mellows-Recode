@@ -21,6 +21,7 @@ body {
 section {
     background-color: #FFFDDE;
 }
+
 .footer {
     background-color: #D9D7F1;
 }
@@ -36,10 +37,19 @@ section {
     box-shadow: 15px 10px #b3d2e8;
 }
 
-.container_nv {
+.Nivel {
+    color: #685ed5;
+    margin 0 auto;
+    text-align: center;
+    text-shadow: 7px 7px #f5c7f3;
+    font-size: 50px;
+}
 
-    background-color: #e24fb6;
-    max-height: 80vh;
+.form-select {
+    background-color: #E7FBBE;
+    color: #685ed5;
+    margin: 0 auto;
+    max-width: 95vh;
     position: relative;
 }
 
@@ -49,7 +59,7 @@ section {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -100%);
-    
+
 
 }
 
