@@ -41,8 +41,7 @@
                             Livros Interativos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Cadastre-se</a></li>
-                            <!--modal-->
+                            <li><a class="dropdown-item" href="./cadastre-se.html">Cadastre-se</a></li>
                             <li><a class="dropdown-item" href="./leitura.html">Ver Livros</a></li>
                         </ul>
                     <li class="nav-item">
@@ -53,17 +52,17 @@
             </div>
         </div>
     </nav>
-    
+
     <!--Jumbotron-->
     <section>
         <div class="mt-4 p-5 rounded;" style=" background-color: #FFCBCB;">
-            <h1>Troca de Livros</h1>
-            <p>A nossa área de troca de livros tem como objetivo distribuir a maior quantidade de livros que pudermos! Olha quantas
-            opções legais temos disponíveis pra você compartilhar com seus amigos:</p>
-            <p><strong>Venha desenvolver a leitura!!</strong></p>
+            <h1 style="text-shadow: 3px 2px 3px; color:#FFFDDE;">Troca de Livros</h1>
+            <p>A nossa área de troca de livros tem como objetivo distribuir a maior quantidade de livros que pudermos!
+                Olha quantas
+                opções legais temos disponíveis pra você compartilhar com seus amigos:</p>
+            <p><strong>Vem se aventurar com a gente!</strong></p>
 
-
-            <button id="buttomlivros" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            <button id="BtnLivros" class="btn" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Escolha os livros</button>
 
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
@@ -88,7 +87,7 @@
     </section>
 
     <!--Cards-->
-    <div class="card-group ">
+    <div class="card-group mb-3">
         <div class="card">
             <img src="./Img/rapunzell.jpg" class="card-img-top" alt="rapunzel">
             <div class="card-body">
@@ -96,7 +95,7 @@
                 <p class="card-text">A narrativa infantil que conquistou gerações, pelo mundo inteiro, fala sobre uma
                     moça de cabelos muito compridos que
                     vivia trancada numa torre, por ordem de uma bruxa malvada.</p>
-               <button class="rounded btn btn-outline-secondary"><i class="fa-solid fa-download"></i></button>
+                <button class="rounded btn btn-outline-secondary"><i class="fa-solid fa-download"></i></button>
             </div>
         </div>
 
@@ -104,28 +103,31 @@
             <img src="./Img/o pequeno principe.jpg" class="card-img-top" alt="pequeno principe">
             <div class="card-body">
                 <h5 class="card-title">O Pequeno Príncipe</h5>
-                <p class="card-text">O Pequeno Príncipe é uma obra literária do escritor francês Antoine de Saint-Exupéry, que conta a história da amizade
-                    entre um homem frustrado por ninguém compreender os seus desenhos, com um principezinho que habita um asteroide no
+                <p class="card-text">O Pequeno Príncipe é uma obra literária do escritor francês Antoine de
+                    Saint-Exupéry, que conta a história da amizade
+                    entre um homem frustrado por ninguém compreender os seus desenhos, com um principezinho que habita
+                    um asteroide no
                     espaço.
                 </p>
                 <button class="rounded btn btn-outline-secondary"><i class="fa-solid fa-download"></i></button>
             </div>
         </div>
         <div class="card">
-            <img src="./Img/alice no pais das maravilhas.jpg" class="card-img-top"
-                alt="alice no pais das maravilhas">
+            <img src="./Img/alice no pais das maravilhas.jpg" class="card-img-top" alt="alice no pais das maravilhas">
             <div class="card-body">
                 <h5 class="card-title">Alice no País das Maravilhas</h5>
-                <p class="card-text">Trata-se de uma obra infantil que conquistou leitores e apaixonados de todas as idades e gerações. Em parte, porque abre
-                várias linhas de leitura e interpretação possíveis, estando também repleta de referências e críticas sobre a cultura da
-                época...</p>
-                <button class="rounded btn btn-outline-secondary "> <i class="fa-solid fa-download"></i></button>
+                <p class="card-text">Trata-se de uma obra infantil que conquistou leitores e apaixonados de todas as
+                    idades e gerações. Em parte, porque abre
+                    várias linhas de leitura e interpretação possíveis, estando também repleta de referências e críticas
+                    sobre a cultura da
+                    época...</p>
+                <button class="rounded btn btn-outline-secondary "><i class="fa-solid fa-download"></i></button>
             </div>
         </div>
     </div>
     <!--Button Upload-->
     <p>Troque seus livros com outras crianças<i class="fa-solid fa-book"></i></p>
-    <div class="input-group">
+    <div class="input-group mb-5">
         <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04"
             aria-label="Upload">
         <button class="btn btn-outline-secondary">
@@ -140,14 +142,14 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
                     <h6>
-                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-solid fa-envelope" id="email"></i>
                         Fale com a gente!
                     </h6>
                     <a href="" class="list">contato@mellows.com.br</a>
                 </div>
                 <div class="col-lg-4 col-sm-12">
                     <h6>
-                        <i class="fa-solid fa-message"></i>
+                        <i class="fa-solid fa-message" id="mensagem"></i>
                         Mande uma mensagem:
                     </h6>
                     <form>
@@ -175,7 +177,7 @@
                                 <textarea class="form-control" id="textarea" rows="5"
                                     placeholder="Escreva aqui..."></textarea>
                                 <div class="text-center pt-2">
-                                    <button type="button" class="btn">Enviar</button>
+                                    <button type="button" class="btn" id="btnMsg">Enviar</button>
                                 </div>
                             </div>
                         </div>
@@ -183,11 +185,11 @@
                 </div>
                 <div class="col-lg-4 col-sm-12 ">
                     <h6>
-                        <i class="fa-solid fa-globe"></i>
+                        <i class="fa-solid fa-globe" id="redes"></i>
                         Nos siga nas redes
                     </h6>
-                    <p><i class="fa-brands fa-facebook-f"></i><a href="..." class="list"> Facebook </a></p>
-                    <p><i class="fa-brands fa-instagram"></i><a href="..." class="list"> Instagram </a></p>
+                    <p><i class="fa-brands fa-facebook-f" id="fb"></i><a href="..." class="list"> Facebook </a></p>
+                    <p><i class="fa-brands fa-instagram" id="ig"></i><a href="..." class="list"> Instagram </a></p>
                     <img src="./Img/roxo.png" height="200" />
 
                 </div>
@@ -201,4 +203,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
