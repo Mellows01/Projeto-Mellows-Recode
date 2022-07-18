@@ -5,106 +5,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./icons/css/all.css" type="text/css" media="all" />
     <link rel="stylesheet" type="text/css" href="quemSomos.css">
+    <script src="https://kit.fontawesome.com/afb4edac5b.js" crossorigin="anonymous"></script>
     <title>Projeto Mellows</title>
 </head>
-
 <body>
 
     <!-- navbar -->
-    <ul id="NavBar" class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Início</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./quemSomos.html">Quem somos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./comoFunciona.html">Como funciona</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Livros interativos</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Cadastre-se!</a> <!--modal aqui-->
-                <a class="dropdown-item" href="./leitura.html">Ver livros interativos</a>
+    <nav class="navbar navbar-expand-lg mb-5" id="NavBar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Img/logoMellows.png" width="250" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quemSomos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Livros Interativos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Cadastre-se</a></li>
+                            <!--modal-->
+                            <li><a class="dropdown-item" href="./leitura.html">Ver Livros</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trocaLivros.html">Troca de Livros</a>
+                    </li>
+                    </li>
+                </ul>
             </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./trocaLivros.html">Troca de livros</a>
-        </li>
-    </ul>
-    <!-- fim navbar -->
+        </div>
+    </nav>
 
-       <!-- footer/contato -->
-    <footer class="footer">
-        <div id="contato" class="container">
-            <div class="row pt-4">
-                <div class="col-md-6">
-                    <h3 class="main-title pt-2">Fale com a gente!</h3>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="main-title pt-2">Nossas Redes:</h3>
+
+
+
+    <!-- inicio cards-->
+
+    <div id="container" class="container">
+        <div class="row pt-5">
+            <div class="col-md-4 my-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Img/1 Sem Título_20220715155419.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Os Mellows</h5>
+                        <p class="card-text">Olá amiguinhos, nós somos os <strong>Mellows</strong> &#x1F970; , estamos
+                            aqui para
+                            juntos conhecermos muitas histórias e aventuras.&#x1F604;</p>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-4 my-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Img/1 Sem Título_20220715155437 (1).png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Os Mellows</h5>
+                        <p class="card-text">Temos ótimos livros para nos aventurarmos nesse mundo que iremos atravez da
+                            leitura.<br> Não fique de fora dessa jornada.&#x1f600; </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./Img/1 Sem Título_20220715155445.png"
+                        alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Os Mellows</h5>
+                        <p class="card-text">Vamos aprender muito na leitura interativa e no compartilhamento de livros,
+                            assim podemos ler com os nossos amiguinhos.&#x1F60D; </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--fim dos cards-->
+
+    <!-- footer/contato -->
+    <footer class="footer bottom">
+        <div class="container">
+            <br>
             <div class="row">
-                <div class="col-md-6">
-                    <p>Mande um e-mail para: contato@mellows.com.br</p>
-                    <p><b>Ou nos mande uma mensagem:</b></p>
+                <div class="col-lg-4 col-sm-12">
+                    <h6>
+                        <i class="fa-solid fa-envelope"></i>
+                        Fale com a gente!
+                    </h6>
+                    <a href="" class="list">contato@mellows.com.br</a>
                 </div>
-                <div class="col-md-6">
-                    <a>Facebook</a>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a>Instagram</a>
+                <div class="col-lg-4 col-sm-12">
+                    <h6>
+                        <i class="fa-solid fa-message"></i>
+                        Mande uma mensagem:
+                    </h6>
+                    <form>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="inputNome">Seu nome:</label>
+                                <input type="email" class="form-control" id="inputNome" aria-describedby="emailHelp"
+                                    placeholder="Seu nome">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
                         </div>
-                    </div>
+
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="inputEmail">Seu email:</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                                    placeholder="Email">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+                        </div>
+
+                        <div class="row mb-2 pb-3">
+                            <div class="col-md-6">
+                                <label for="exampleFormControlTextarea1">Mensagem:</label>
+                                <textarea class="form-control" id="textarea" rows="5"
+                                    placeholder="Escreva aqui..."></textarea>
+                                <div class="text-center pt-2">
+                                    <button type="button" class="btn">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-sm-12 ">
+                    <h6>
+                        <i class="fa-solid fa-globe"></i>
+                        Nos siga nas redes
+                    </h6>
+                    <p><i class="fa-brands fa-facebook-f"></i><a href="..." class="list"> Facebook </a></p>
+                    <p><i class="fa-brands fa-instagram"></i><a href="..." class="list"> Instagram </a></p>
+                    <img src="./Img/roxo.png" height="200" />
                 </div>
             </div>
-            
-<!-- Footer -->
-            <form>
-                <div class="row mb-2">
-                    <div class="col-md-2">
-                        <label for="inputNome">Seu nome:</label>
-                        <input type="email" class="form-control" id="inputNome" aria-describedby="emailHelp"
-                            placeholder="Seu nome">
-                        <small id="emailHelp" class="form-text text-muted"></small>
-                    </div>
-                </div>
+        </div>
 
-                <div class="row mb-2">
-                    <div class="col-md-2">
-                        <label for="inputEmail">Seu email:</label>
-                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-                            placeholder="Email">
-                        <small id="emailHelp" class="form-text text-muted"></small>
-                    </div>
-                </div>
-
-                <div class="row mb-2 pb-3">
-                    <div class="col-md-4">
-                        <label for="exampleFormControlTextarea1">Mensagem:</label>
-                        <textarea class="form-control" id="textarea" rows="6" placeholder="Escreva aqui..."></textarea>
-                        <div class="text-center pt-2">
-                            <button type="button" class="btn">Enviar</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
     </footer>
-    <!-- fim footer -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>
