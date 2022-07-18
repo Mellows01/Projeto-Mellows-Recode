@@ -26,6 +26,14 @@ section {
     background-color: #D9D7F1;
 }
 
+#btnMsg {
+    background-color: #FFFDDE;
+}
+
+i {
+    color: #FFFDDE;
+}
+
 #container{
     display: flex;
     justify-content: space-around;
