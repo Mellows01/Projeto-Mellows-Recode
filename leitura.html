@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="leitura.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +18,7 @@
 </head>
 
 
+<!-- navbar -->
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg mb-5" id="NavBar">
     <div class="container-fluid">
@@ -42,8 +43,7 @@
                         Livros Interativos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Cadastre-se</a></li>
-                        <!--modal-->
+                        <li><a class="dropdown-item" href="./cadastre-se.html">Cadastre-se</a></li>
                         <li><a class="dropdown-item" href="./leitura.html">Ver Livros</a></li>
                     </ul>
                 <li class="nav-item">
@@ -62,7 +62,8 @@
 
     <!-- Row central -->
 
-    <br><p class="Nivel">Escolha Um nível de leitura para começar</p><br>
+    <br>
+    <p class="Nivel">Escolha Um nível de leitura para começar</p><br>
 
 
     <select class="form-select" aria-label="Default select example">
@@ -70,77 +71,71 @@
         <option value="1">Iniciante</option>
         <option value="2">Intermediário</option>
         <option value="3">Avançado</option>
-      </select>
+    </select>
 
-        <!-- Sessão -->
+    <!-- Sessão -->
 
-        <div class='containerint mx-auto mt-5 col-md-10 col-11'>
-            <div class="header text-muted">Escolha um livro para começar</div>
-            <div class="row" style="justify-content: center">
-                <div class="card col-md-3 col-11">
-                    <div class="card-content">
-                        <div class="card-body p-0">
+    <div class='containerint mx-auto mt-5 col-md-10 col-11'>
+        <div class="header text-muted">Escolha um livro para começar</div>
+        <div class="row" style="justify-content: center">
+            <div class="card col-md-3 col-11">
+                <div class="card-content">
+                    <div class="card-body p-0">
 
-                            <div class="profile mb-4 mt-3"> <img src="IMG/Exemplo.jpg"> </div>
+                        <div class="profile mb-4 mt-3"> <img src="Img/Exemplo.jpg"> </div>
 
-                            <div class="profile mb-4 mt-3"> <img src="Img/Exemplo.jpg"> </div>
-
-                            <div class="card-subtitle">
-                                <p> <small class="text-muted"> <i class="fas fa-quote-left"></i> Quando a Doninha se
-                                        depara
-                                        com uma forte e furiosa tempestade, decide construir uma fortaleza e se
-                                        refugiar.
-                                        Mas, depois, conhece a Toupeira, que adora brincar ao vento e na chuva.
-                                        Conseguirá aprender a ultrapassar os medos? <i
-                                            class="fas fa-quote-left fa-flip-horizontal"></i> </small> </p>
-                            </div>
-                            <div class="card-body company"> <i class="fab fa-ebay fa-2x"></i> <small
-                                    class="intro text-muted">Link aqui</small> </div>
+                        <div class="card-subtitle">
+                            <p> <small class="text-muted"> <i class="fas fa-quote-left"></i> Quando a Doninha se
+                                    depara
+                                    com uma forte e furiosa tempestade, decide construir uma fortaleza e se
+                                    refugiar.
+                                    Mas, depois, conhece a Toupeira, que adora brincar ao vento e na chuva.
+                                    Conseguirá aprender a ultrapassar os medos? <i
+                                        class="fas fa-quote-left fa-flip-horizontal"></i> </small> </p>
                         </div>
+                        <div class="card-body company"> <i class="fab fa-ebay fa-2x"></i> <small
+                                class="intro text-muted">Link aqui</small> </div>
                     </div>
                 </div>
-                <div class="card col-md-3 col-11 second">
-                    <div class="card-content">
-                        <div class="card-body p-0">
+            </div>
+            <div class="card col-md-3 col-11 second">
+                <div class="card-content">
+                    <div class="card-body p-0">
 
-                            <div class="profile mb-4 mt-3"> <img src="IMG/Exemplo2.jpg"> </div>
+                        <div class="profile mb-4 mt-3"> <img src="Img/Exemplo2.jpg"> </div>
 
-                            <div class="profile mb-4 mt-3"> <img src="Img/Exemplo2.jpg"> </div>
-
-                            <div class="card-subtitle">
-                                <p> <small class="text-muted"> <i class="fas fa-quote-left "></i> O avô do Ursinho é
-                                        maravilhoso! Constrói cabanas, acende fogueiras, abraça como poucos ursos o
-                                        sabem
-                                        fazer. Aconteça o que acontecer, estará sempre por perto, para quando o Ursinho
-                                        precisar...<i class="fas fa-quote-left fa-flip-horizontal"></i> </small> </p>
-                            </div>
-                            <div class="card-body company"></i><small class="intro text-muted">Link aqui</small> </div>
+                        <div class="card-subtitle">
+                            <p> <small class="text-muted"> <i class="fas fa-quote-left "></i> O avô do Ursinho é
+                                    maravilhoso! Constrói cabanas, acende fogueiras, abraça como poucos ursos o
+                                    sabem
+                                    fazer. Aconteça o que acontecer, estará sempre por perto, para quando o Ursinho
+                                    precisar...<i class="fas fa-quote-left fa-flip-horizontal"></i> </small> </p>
                         </div>
+                        <div class="card-body company"></i><small class="intro text-muted">Link aqui</small> </div>
                     </div>
                 </div>
-                <div class="card col-md-3 col-11 third">
-                    <div class="card-content">
-                        <div class="card-body p-0">
+            </div>
+            <div class="card col-md-3 col-11 third">
+                <div class="card-content">
+                    <div class="card-body p-0">
 
-                            <div class="profile mb-4 mt-3"> <img src="IMG/Exemplo3.jpg"> </div>
+                        <div class="profile mb-4 mt-3"> <img src="Img/Exemplo3.jpg"> </div>
 
-                            <div class="profile mb-4 mt-3"> <img src="Img/Exemplo3.jpg"> </div>
-
-                            <div class="card-subtitle">
-                                <p> <small class="text-muted"> <i class="fas fa-quote-left"></i> O Milo tem muitas
-                                        preocupações. Felizmente, a irmã Mia, sabe como ajudar. “Quando partilhamos as
-                                        nossas preocupações, elas parecem mais pequenas”, confortou-o a irmã. <i
-                                            class="fas fa-quote-left fa-flip-horizontal"></i> </small> </p>
-                            </div>
-                            <div class="card-body company"> <i class="fab fa-yelp fa-2x"></i><small
-                                    class="intro text-muted">Link aqui</small> </div>
+                        <div class="card-subtitle">
+                            <p> <small class="text-muted"> <i class="fas fa-quote-left"></i> O Milo tem muitas
+                                    preocupações. Felizmente, a irmã Mia, sabe como ajudar. “Quando partilhamos as
+                                    nossas preocupações, elas parecem mais pequenas”, confortou-o a irmã. <i
+                                        class="fas fa-quote-left fa-flip-horizontal"></i> </small> </p>
                         </div>
+                        <div class="card-body company"> <i class="fab fa-yelp fa-2x"></i><small
+                                class="intro text-muted">Link aqui</small> </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Sessão -->
-        <p></p>
+    </div>
+    <!-- Sessão -->
+    <p></p>
 </section>
 
 
@@ -186,7 +181,7 @@
                             <textarea class="form-control" id="textarea" rows="5"
                                 placeholder="Escreva aqui..."></textarea>
                             <div class="text-center pt-2">
-                                <button type="button" class="btn">Enviar</button>
+                                <button type="button" class="btn" id="btnFooter">Enviar</button>
                             </div>
                         </div>
                     </div>
@@ -209,15 +204,10 @@
 
 </footer>
 <!-- fim footer -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
