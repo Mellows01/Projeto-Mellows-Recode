@@ -20,23 +20,33 @@ body {
 
 section {
     background-color: #FFFDDE;
+    height: 45vh;
+}
+
+.mb-3 {
+    color: #b3d2e8;
+    border-radius: 100px;
+    margin: 0 auto;
+    max-width: 100vh;
+    position: relative;
+
+}
+
+.form {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
 }
 
 .footer {
     background-color: #D9D7F1;
 }
 
-.mb-3 {
-color: #b3d2e8;
-border-radius: 100px;
-margin: 0 auto;
-max-width: 100vh;
-position: relative;
-
+#btnFooter {
+    background-color: #FFFDDE;
 }
-.form {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -100%);
+
+i {
+    color: #FFFDDE;
 }
