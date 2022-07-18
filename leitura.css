@@ -26,6 +26,14 @@ section {
     background-color: #D9D7F1;
 }
 
+#btnFooter {
+    background-color: #FFFDDE;
+}
+
+i {
+    color: #FFFDDE;
+}
+
 .titleli {
     background-color: #f5c7f3;
     color: #685ed5;
@@ -39,7 +47,7 @@ section {
 
 .Nivel {
     color: #685ed5;
-    margin 0 auto;
+    margin: 0 auto;
     text-align: center;
     text-shadow: 7px 7px #f5c7f3;
     font-size: 50px;
