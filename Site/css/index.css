@@ -1,0 +1,72 @@
+
+body {
+    background-color: #FFFDDE;
+    font-family: 'Roboto', sans-serif;
+}
+
+#NavBar {
+    background-color: #D9D7F1;
+}
+
+.navbar-brand {
+    justify-content: start;
+}
+
+.nav-item {
+    padding-top: 10px;
+}
+
+.nav-link {
+    color: #FFFDDE;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+section {
+    background-color: #FFFDDE;
+}
+
+.card {
+    border-radius: 6px;
+}
+
+#legenda {
+    border-radius: 12px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #D9D7F1;
+}
+
+i {
+    color: #E7FBBE;
+}
+
+a {
+    color: black;
+}
+
+.btn {
+    background-color: #FFFDDE;
+}
+
+
+
+
+
