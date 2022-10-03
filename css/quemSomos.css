@@ -39,3 +39,8 @@ i {
     justify-content: space-around;
 
 }
+
+#recode{
+    display: block;
+	margin: 0 auto;
+}
