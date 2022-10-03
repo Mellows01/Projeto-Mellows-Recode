@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./icons/css/all.css" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="./css/trocaLivros.css">
+    <script src="https://kit.fontawesome.com/afb4edac5b.js" crossorigin="anonymous"></script>
+    <title>Projeto Mellows</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg mb-5" id="NavBar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logoMellows.png" width="250" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quemSomos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Livros Interativos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./cadastre-se.html">Cadastre-se</a></li>
+                            <li><a class="dropdown-item" href="./leitura.html">Ver Livros</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trocaLivros.html">Troca de Livros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./indexAdmin.html">Área do Administrador</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Jumbotron-->
+    <section>
+        <div class="p-5 mb-4 rounded;" style=" background-color: #FFCBCB;">
+            <h1 style="text-shadow: 3px 2px 3px; color:#FFFDDE;">Troca de Livros</h1>
+            <p>A nossa área de troca de livros tem como objetivo distribuir a maior quantidade de livros que pudermos!
+                Olha quantas
+                opções legais temos disponíveis pra você compartilhar com seus amigos:</p>
+            <p><strong>Vem se aventurar com a gente!</strong></p>
+
+            <button id="BtnLivros" class="btn" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Escolha os livros</button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Livros Interativos
+                        <hr>
+                    </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li><a href="">Contos</a></li>
+                        <li><a href="">Crônicas</li>
+                        <li><a href="">Lendas e Mitos</a></li>
+                        <li><a href="">Fábulas</a></li>
+                    </ul>
+                </div>
+                <picture> <img src="./img/melows.png" alt="mellows" style="height:10rem ;"></picture>
+            </div>
+    </section>
+
+    <!--Cards-->
+    <div class="card-group mb-3">
+        <div class="card">
+            <img src="./img/rapunzell.jpg" class="card-img-top mt-3" alt="rapunzel">
+            <div class="card-body text-center">
+                <h5 class="card-title">Rapunzel</h5>
+                <p class="card-text">A narrativa infantil que conquistou gerações, fala sobre uma
+                    moça de cabelos muito compridos que
+                    vivia trancada numa torre, por ordem de uma bruxa malvada.</p>
+                <button class="rounded btn btn-outline-secondary"><i class="fa-solid fa-download"></i></button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/o pequeno principe.jpg" class="card-img-top mt-3" alt="pequeno principe">
+            <div class="card-body text-center">
+                <h5 class="card-title">O Pequeno Príncipe</h5>
+                <p class="card-text">A história da amizade
+                    entre um homem frustrado por ninguém compreender os seus desenhos, com um principezinho que habita
+                    um asteroide no espaço.
+                </p>
+                <button class="rounded btn btn-outline-secondary"><i class="fa-solid fa-download"></i></button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/alice no pais das maravilhas.jpg" class="card-img-top mt-3"
+                alt="alice no pais das maravilhas">
+            <div class="card-body text-center">
+                <h5 class="card-title">Alice no País das Maravilhas</h5>
+                <p class="card-text">Uma menina curiosa que decide seguir um coelho branco,
+                    quando de repente cai em sua toca e é levada a um reino de criaturas estranhas.</p>
+                <button class="rounded btn btn-outline-secondary "><i class="fa-solid fa-download"></i></button>
+            </div>
+        </div>
+    </div>
+    <!--Button Upload-->
+    <p class="text-center mt-5"><b>Troque seus livros com outras crianças</b></p>
+    <div class="input-group mb-5 mx-auto">
+        <input type="file" class="form-control" id="uploadLivros" aria-describedby="inputGroupFileAddon04"
+            aria-label="Upload">
+        <button class="btn btn-outline-secondary">
+            <i class="fa-solid fa-upload"></i>
+        </button>
+    </div>
+
+    <!-- footer/contato -->
+    <footer class="footer bottom">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <h6>
+                        <i class="fa-solid fa-envelope" id="email"></i>
+                        Fale com a gente!
+                    </h6>
+                    <a href="" class="list">contato@mellows.com.br</a>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <h6>
+                        <i class="fa-solid fa-message" id="mensagem"></i>
+                        Mande uma mensagem:
+                    </h6>
+                    <form>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="inputNome">Seu nome:</label>
+                                <input type="email" class="form-control" id="inputNome" aria-describedby="emailHelp"
+                                    placeholder="Seu nome">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <label for="inputEmail">Seu email:</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                                    placeholder="Email">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+                        </div>
+
+                        <div class="row mb-2 pb-3">
+                            <div class="col-md-6">
+                                <label for="exampleFormControlTextarea1">Mensagem:</label>
+                                <textarea class="form-control" id="textarea" rows="5"
+                                    placeholder="Escreva aqui..."></textarea>
+                                <div class="text-center pt-2">
+                                    <button type="button" class="btn" id="btnMsg">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-sm-12 ">
+                    <h6>
+                        <i class="fa-solid fa-globe" id="redes"></i>
+                        Nos siga nas redes
+                    </h6>
+                    <p><i class="fa-brands fa-facebook-f" id="fb"></i><a href="..." class="list"> Facebook </a></p>
+                    <p><i class="fa-brands fa-instagram" id="ig"></i><a href="..." class="list"> Instagram </a></p>
+                    <img src="./img/roxo.png" height="200" />
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+body {
+    background-color: #FFFDDE;
+    font-family: 'Roboto', sans-serif;
+}
+
+#NavBar {
+    background-color: #D9D7F1;
+}
+
+.navbar-brand {
+    justify-content: start;
+}
+
+.nav-item {
+    padding-top: 10px;
+}
+
+.nav-link {
+    color: #FFFDDE;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+section {
+    background-color: #FFFDDE;
+    text-align: center;
+}
+
+.jumbotron {
+    width: 30%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#BtnLivros {
+    background-color: #FFFDDE;
+}
+
+.card-img-top {
+    width: 30%;
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.input-group {
+    width: 30%;
+    margin: 2px;
+
+}
+
+.offcanvas {
+    background-color: #D9D7F1;
+
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #D9D7F1;
+
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#btnMsg {
+    background-color: #FFFDDE;;
+}
+
+#fb {
+    color: #FFFDDE;
+}
+
+#ig {
+    color: #FFFDDE;
+}
+
+#mensagem {
+    color: #FFFDDE;
+}
+
+#email {
+    color: #FFFDDE;
+}
+
+#redes {
+    color: #FFFDDE;
+}
+
